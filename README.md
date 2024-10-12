@@ -2,6 +2,17 @@ This is the github repo of the GDSC team project
 
 The Project is a E learning platform ... (to be continued)
 
+To build the project locally:
+
+i. cd Frontend
+
+ii. npm i
+
+iii. npm run dev
+
+(Make sure you have Node installed in your system prior to this)
+
+ 
 Contribution Guide:
 
 i. Fork the repository
