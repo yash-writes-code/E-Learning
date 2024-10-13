@@ -5,7 +5,6 @@ import Sidebar from '../components/Sidebar.jsx';
 import Classes from '../components/Classes.jsx';
 import './Teacher.css';
 // import Dashboard from '../components/Dashboard';
-// import Classes from '../components/Classes';
 // import Assignments from '../components/Assignments';
 
 function Teacher() {

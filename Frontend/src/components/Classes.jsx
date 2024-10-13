@@ -5,8 +5,7 @@ import classesData from '../data/classes';
 function Classes() {
   return (
     <div className="flex flex-col space-y-2 ml-4">
-      <h2 className="text-xl font-bold mt-1">Your Classes</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 m-3">
         {classesData.map((cls) => (
           <Link to={`/teacher/classes/${cls.id}`} key={cls.id} className="bg-white rounded-md shadow-md p-4 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
             <div className="flex items-center">
@@ -15,7 +14,7 @@ function Classes() {
               </div>
               <div className="ml-4">
                 <h3 className="text-lg font-bold">{cls.name}</h3>
-                <p className="text-gray-600">{cls.description}</p>
+                <p className="text-gray-600">No. of Students: {cls.students}</p>
               </div>
             </div>
           </Link>
