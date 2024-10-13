@@ -3,6 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from '../components/Header.jsx';
 import Sidebar from '../components/Sidebar.jsx';
 import Classes from '../components/Classes.jsx';
+import ClassDetails from '../components/ClassDetails.jsx';
 import './Teacher.css';
 // import Dashboard from '../components/Dashboard';
 // import Assignments from '../components/Assignments';
@@ -17,6 +18,7 @@ function Teacher() {
           <Routes>
             <Route path="/" element={<Navigate to="classes" />} />
             <Route path="classes" element={<Classes />} />
+            <Route path="classes/:id" element={<ClassDetails />} />
           </Routes>
          {/* <Routes>
             <Route path="/" element={<Navigate to="dashboard" />} />
