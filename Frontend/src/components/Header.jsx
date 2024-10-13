@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
   return (
-    <div className="header bg-white-900 text-black p-4 flex items-center justify-between sticky top-0 z-50 shadow-md">
+    <div className="header bg-white text-black p-4 flex items-center justify-between sticky top-0 z-50 shadow-md">
       <h1 className="header-title text-2xl font-bold tracking-wide">
         Teacher Dashboard
       </h1>
