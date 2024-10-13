@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from '../components/Header.jsx';
 import Sidebar from '../components/Sidebar.jsx';
+import Classes from '../components/Classes.jsx';
 import './Teacher.css';
 // import Dashboard from '../components/Dashboard';
 // import Classes from '../components/Classes';
