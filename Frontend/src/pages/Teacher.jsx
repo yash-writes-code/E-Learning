@@ -15,10 +15,13 @@ function Teacher() {
       <div className="main-content">
         <Sidebar />
         <div className="content-area">
+          <Routes>
+            <Route path="/" element={<Navigate to="classes" />} />
+            <Route path="classes" element={<Classes />} />
+          </Routes>
          {/* <Routes>
             <Route path="/" element={<Navigate to="dashboard" />} />
             <Route path="dashboard" element={<Dashboard />} />
-            <Route path="classes" element={<Classes />} />
             <Route path="assignments" element={<Assignments />} />
           </Routes>*/}
         </div>
