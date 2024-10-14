@@ -1,0 +1,23 @@
+.assignments {
+    padding: 16px;
+  }
+  
+  .assignment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .assignment-item {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .assignment-item h3 {
+    margin: 0;
+  }
+  
+  .assignment-item p {
+    margin: 4px 0 0 0;
+    color: #555;
+  }
+  
