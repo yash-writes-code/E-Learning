@@ -11,9 +11,9 @@ function Sidebar() {
         <Link to="classes" className="sidebar-item bg-gray-700 hover:bg-gray-600 text-white transition duration-300 rounded-lg p-4 cursor-pointer font-medium">
           Classes
         </Link>
-        <div className="sidebar-item bg-gray-700 hover:bg-gray-600 text-white transition duration-300 rounded-lg p-4 cursor-pointer font-medium">
+        <Link to="assignments" className="sidebar-item bg-gray-700 hover:bg-gray-600 text-white transition duration-300 rounded-lg p-4 cursor-pointer font-medium">
           Assignments
-        </div>
+        </Link>
         <div className="sidebar-item bg-gray-700 hover:bg-gray-600 text-white transition duration-300 rounded-lg p-4 cursor-pointer font-medium">
           Doubts
         </div>
