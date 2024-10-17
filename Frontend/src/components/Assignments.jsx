@@ -23,11 +23,11 @@ const Assignments = () => {
   };
 
   return (
-    <div className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Assignments</h2>
+    <div className="p-4 bg-gray-100">
+      <h2 className="text-2xl font-bold mb-4 text-blue-600">Assignments</h2>
       {assignments.map(assignment => (
-        <div key={assignment.id} className="bg-white shadow-md rounded-lg p-4 mb-4">
-          <h3 className="text-xl font-semibold">{assignment.title}</h3>
+        <div key={assignment.id} className="bg-white shadow-md rounded-lg p-4 mb-4 border border-gray-300">
+          <h3 className="text-xl font-semibold text-gray-800">{assignment.title}</h3>
           <p className="text-gray-600">Due Date: {assignment.dueDate}</p>
           <h4 className="text-lg font-medium mt-2">Submissions:</h4>
           <ul className="list-none p-0">
@@ -39,7 +39,7 @@ const Assignments = () => {
                   placeholder="Enter marks"
                   value={submission.marks || ''}
                   onChange={e => handleMarksChange(assignment.id, submission.studentId, e.target.value)}
-                  className="border border-gray-300 rounded-md p-1 w-24"
+                  className="border border-gray-300 rounded-md p-1 w-24 focus:outline-none focus:ring-2 focus:ring-blue-400"
                 />
               </li>
             ))}

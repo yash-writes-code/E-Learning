@@ -4,7 +4,8 @@ import Header from '../components/Header.jsx';
 import Sidebar from '../components/Sidebar.jsx';
 import Classes from '../components/Classes.jsx';
 import ClassDetails from '../components/ClassDetails.jsx';
-import Assignments from '../components/Assignments';
+import Assignments from '../components/Assignments.jsx';
+import Doubts from '../components/Doubts.jsx'
 import './Teacher.css';
 
 function Teacher() {
@@ -19,6 +20,7 @@ function Teacher() {
             <Route path="classes" element={<Classes />} />
             <Route path="classes/:id" element={<ClassDetails />} />
             <Route path="assignments" element={<Assignments />} />
+            <Route path="doubts" element={<Doubts />} />
           </Routes>
         </div>
       </div>
