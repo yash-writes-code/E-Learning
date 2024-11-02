@@ -1,0 +1,194 @@
+.classHandle img{
+    height: 400px;
+    position: relative;
+}
+.classHandle1 img, .classhandle2 img{
+    height: 350px;
+    position: relative;
+}
+
+.classContainer .things{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: repeat(2, 80px); */
+    grid-template-rows: 400px 80px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 23px;
+}
+.thing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 20px;
+    /* background-color: gray; */
+}
+.thing1 img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    /* z-index: 1; */
+}
+.thing1 .a1{
+    width: 320px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.thing1{
+    position: relative;
+}
+.thing1 p:nth-child(1){
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 5px;
+}
+.a1 p{
+    position: absolute;
+    left: 54px;
+}
+.thing p{
+    color: black;
+}
+.thing p a{
+    color: black;
+}
+
+.thing{
+    position: relative;
+}
+.thing p:nth-child(1){
+    position: absolute;
+    top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+} 
+/* here we did css for all headings in above two blocks  */
+
+.write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.write input{
+    color: black;
+    width: 80%;
+    height: 30px;
+    font-size: 18px;
+}
+.created{
+    /* color: black; */
+    padding: 8px;
+    background-color: rgb(158, 231, 48);
+    border-radius: 20px;
+    height: 40px;
+    width: 370px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.thing1 , .thing2{
+    overflow: hidden;
+}
+.write .send{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(128, 237, 237);
+}
+.assignments{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.assignsubmit{
+    width: 90%;
+}
+.assignments p{
+    color: black;
+    margin: 20px;
+}
+.assignments .heading{
+    font-size: 34px;
+    font-weight: 700;
+}
+.assignsubmit p{
+    font-size: 20px;
+}
+.assignments form{
+    margin-left: 140px;
+}
+.assignments .form-control{
+    border: 2px solid black;
+    color: black;
+    width: 320px;
+}
+.assignments button{
+    height: 25px;
+    background-color: rgb(253, 182, 48);
+}
+.Books{
+    margin: 40px;
+}
+.Books p{
+    color: black;
+    font-size: 24px;
+}
+.Books p:nth-child(1){
+    font-size: 44px;
+    /* margin-left: 50px; */
+}
+.Books p a{
+    color: black;
+}
+.chapters{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+    margin: 20px;
+}
+.chapters .h1{
+    font-size: 44px;
+    margin-left: 90px;
+    width: 100vw;
+}
+.chapters p{
+    color: black;
+    width: 300px;
+}
+.chapter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    gap: 34px;
+}
+.vid{
+    display: flex;
+    gap: 34px;
+}
+.assignsubmit .form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.deadline{
+    color: black;
+}
